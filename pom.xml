@@ -93,10 +93,10 @@
             <scope>provided</scope>
             <optional>true</optional>
         </dependency>
-        <dependency>
+        <!--dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+        </dependency-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-cache</artifactId>
@@ -257,16 +257,16 @@
                         <apiSource>
                             <springmvc>true</springmvc>
                             <locations>
-                                <location>be.mloz.it.catng.controller</location>
+                                <location>org.jhe.swagger.interceptor.controller</location>
                             </locations>
                             <info>
-                                <title>catng-api</title>
+                                <title>swagger-controller</title>
                                 <version>${project.version}</version>
                             </info>
                             <swaggerDirectory>target/classes</swaggerDirectory>
-                            <modelConverters>
+                            <!--modelConverters>
                                 <modelConverter>be.mloz.it.catng.swagger.ByteArrayFixerModelConverter</modelConverter>
-                            </modelConverters>
+                            </modelConverters-->
                         </apiSource>
                     </apiSources>
                 </configuration>
