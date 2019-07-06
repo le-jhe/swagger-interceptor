@@ -9,7 +9,7 @@
 
     <groupId>org.jhe.swagger-interceptor</groupId>
     <artifactId>swagger-interceptor</artifactId>
-    <version>0.0.02-SNAPSHOT</version>
+    <version>0.0.01-SNAPSHOT</version>
 
     <properties>
         <springfox.version>2.9.2</springfox.version>
@@ -20,9 +20,9 @@
         <mapstruct.version>1.2.0.Final</mapstruct.version>
     </properties>
     <scm>
-        <connection>scm:git:ssh://git@git.sdlc.gfdi.be:7999/catng/catng-api.git</connection>
-        <url>http://git.sdlc.gfdi.be/projects/CATNG/repos/catng-api</url>
-        <tag>catng-api-0.1.12</tag>
+        <connection>scm:git:https://github.com/le-jhe/swagger-interceptor.git</connection>
+        <url>https://github.com/le-jhe/swagger-interceptor</url>
+        <tag>HEAD</tag>
     </scm>
     <!-- check next release notes : https://github.com/spring-projects/spring-boot/milestone/115?closed=1 -->
 
