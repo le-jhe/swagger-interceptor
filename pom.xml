@@ -15,7 +15,7 @@
         <springfox.version>2.9.2</springfox.version>
         <iris.next.client.version>9.2.1</iris.next.client.version>
         <iris.next.extension.version>0.4</iris.next.extension.version>
-        <ignite.version>2.7.0</ignite.version>
+        <ignite.version>2.8.1</ignite.version>
         <jetty.base.version>9.2.11.v20150529</jetty.base.version>
         <mapstruct.version>1.2.0.Final</mapstruct.version>
     </properties>
